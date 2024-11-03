@@ -62,7 +62,7 @@ In this project the FLAN-T5 model was finetuned on the [dialogsum](https://huggi
 </br>
 
 ### Training Time
-| Model           | Training Time |
+| Model           | Training Time (mn) |
 |-----------------|---------------|
 | Original Model  | 38:20         |
 | PEFT Model      | 31:20         |

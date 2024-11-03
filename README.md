@@ -2,6 +2,7 @@
 ## Description
 This project implements a dialogue summarization model using Parameter Efficient Fine-Tuning (PEFT) with `LoRA` on the `FLAN-T5` architecture.</br>
 This project compares `LoRA` with traditional fine-tuning methods to evaluate efficiency and performance, key comparison include <code>Training Time</code>,`ROUGE` score and `N° of trainable parameters`.
+
 </br>
 
 ## Examples

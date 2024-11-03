@@ -44,13 +44,15 @@ program to #Person2#'s software and adding a CD-ROM drive.
 
 ## Project Structure
 In this project the FLAN-T5 model was finetuned on the [dialogsum](https://huggingface.co/datasets/knkarthick/dialogsum). All the code for the project can be found in the `PEFT LoRA-Enhanced Dialogue Summarization.ipynb` Notebook. Here's an overview of the code:
-  * **Data & model Preparation**:
-  * **Zero-shot Inference**:
-  * **Full Fine-Tuning**: 
+  * **Data & model Preparation**
+  * **Zero-shot Inference**
+  * **Full Fine-Tuning**
   * **PEFT Fine-Tuning**: Configure parameters such as the rank `r = 32` and the target modules `q` and `v`.
-  * **Evaluation**:Two main appraoches for evaluation:
+  * **Evaluation**: Two main appraoches for evaluation:
       * **Qualitative (Human-Based) Evaluation**: 
       * **Quantitative Evaluation with ROUGE metrics**:
+
+</br>
 
 ## Results
 ### N° of parameters

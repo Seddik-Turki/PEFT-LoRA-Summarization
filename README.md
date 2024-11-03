@@ -51,8 +51,8 @@ In this project the FLAN-T5 model was finetuned on the [dialogsum](https://huggi
   * **Full Fine-Tuning**
   * **PEFT Fine-Tuning**: Configure parameters such as the rank `r = 32` and the target modules `q` and `v`.
   * **Evaluation**: Two main appraoches for evaluation:
-      * **Qualitative (Human-Based) Evaluation**: 
-      * **Quantitative Evaluation with ROUGE metrics**:
+      * **Qualitative (Human-Based) Evaluation**
+      * **Quantitative Evaluation with ROUGE metrics**
 
 </br>
 

@@ -40,18 +40,17 @@ PEFT MODEL:
 program to #Person2#'s software and adding a CD-ROM drive.
 ---------------------------------------------------------------------------------------------------
 ```
-
+</br>
 
 ## Project Structure
 In this project the FLAN-T5 model was finetuned on the [dialogsum](https://huggingface.co/datasets/knkarthick/dialogsum). All the code for the project can be found in the `PEFT LoRA-Enhanced Dialogue Summarization.ipynb` Notebook. Here's an overview of the code:
-  * **Data & model Preparation**: Load the dataset and the model
-  * **Zero-shot Inference**: Perform zero-shot inference to establish a baseline without any fine-tuning to set a reference for evaluating the impact of training.
-  * **Full Fine-Tuning**: Prepare a prompt for the model and tokenize the dataset, then train the model using the `Full Fine-Tuning` from `Transformers`.
-  * **PEFT Fine-Tuning**: Fine tune the model using LoRA which includes preparing the specific parameters such as the rank `r = 32` and the target modules.
+  * **Data & model Preparation**:
+  * **Zero-shot Inference**:
+  * **Full Fine-Tuning**: 
+  * **PEFT Fine-Tuning**: Configure parameters such as the rank `r = 32` and the target modules `q` and `v`.
   * **Evaluation**:Two main appraoches for evaluation:
-      * **Qualitative (Human-Based) Evaluation**: Assess the generated summaries by comparing them with human-created summaries.
-      * **Quantitative Evaluation ROUGE metrics**: to evaluate the model’s summarization performance numerically and compare results across the zero-shot, full fine-tuning, 
-       and PEFT models.
+      * **Qualitative (Human-Based) Evaluation**: 
+      * **Quantitative Evaluation with ROUGE metrics**:
 
 ## Results
 ### N° of parameters

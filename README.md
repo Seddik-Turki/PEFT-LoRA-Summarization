@@ -78,7 +78,12 @@ In this project the FLAN-T5 model was finetuned on the [dialogsum](https://huggi
 | Instruct Model  | 0.2228  | 0.0766  | 0.1938  | 0.1943     |
 | PEFT Model      | 0.4037  | 0.1549  | 0.3216  | 0.3219     |
 
+</br>
 
+## Conclusion
+The results indicate that the PEFT model significantly enhances summarization performance while being highly efficient. </br>
+It surpasses both the original and instruct models across all ROUGE metrics, demonstrating superior summary quality. </br>
+Remarkably, PEFT achieves this with only `1.41%` of the trainable parameters of the fully fine-tuned model, alongside a shorter training time.
 
 
 
